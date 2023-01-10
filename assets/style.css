@@ -1,0 +1,81 @@
+/* style header and footer */
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    font-size: 8px;
+    font-weight: lighter;
+}
+
+h1 {
+    display: flex;
+}
+
+section {
+    display: flex;
+
+}
+
+.high-score-display {
+    color: rgb(205, 118, 248);
+    align-items: center;
+    justify-content: center;
+}
+
+.your-score-display {
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.timer-display {
+    font-size: 2em;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.central-display {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: larger;
+    padding: 2rem;
+}
+
+/* style button */
+button {
+    background-color: rgb(107, 42, 139);
+    color: white;
+    border: none;
+    width:4rem;
+    margin-left:50%;
+
+}
+
+/* hide button */
+.hide {
+    display: none;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    flex: display;
+    font-size: 2em;
+}
+
+.div {
+    flex: display;
+    font-size: 2em;
+    justify-content: space-between;
+
+}
